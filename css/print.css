@@ -14,8 +14,14 @@ footer {
   padding: 0;
 }
 
+i {
+  color: black;
+  background-color: black;
+}
+
 nav,
-figure {
+figure,
+footer {
   /* Les éléments qui ne seront pas imprimés  */
   display: none;
 }
