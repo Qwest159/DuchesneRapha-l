@@ -1,0 +1,6 @@
+@media screen and (max-width: 1000px) {
+  /* ------PRODUIT------- */
+  main article#Produits section:last-child {
+    display: none;
+  }
+}

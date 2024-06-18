@@ -1,0 +1,25 @@
+@media screen and (max-width: 600px) {
+  /* -------navigation-------- */
+  nav ul {
+    flex-wrap: wrap;
+  }
+
+  /* ------MAIN------ */
+
+  /* ------PRODUIT------- */
+  main article#Produits {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+  }
+  /* -----------CONTENU--------- */
+  main article#contenu {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "img1"
+      "texte1"
+      "img2"
+      "texte2";
+  }
+}
